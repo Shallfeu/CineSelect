@@ -1,0 +1,19 @@
+.movieList {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  gap: 8px;
+  overflow-x: hidden;
+
+  @media (max-width: 1024px) {
+    overflow-x: auto;
+  }
+
+  &:hover {
+    overflow-x: auto;
+  }
+}
+
+.card {
+  margin-left: 8px;
+}

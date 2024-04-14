@@ -1,0 +1,17 @@
+.arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
