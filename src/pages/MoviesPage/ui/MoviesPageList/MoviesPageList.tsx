@@ -31,7 +31,7 @@ export const MoviesPageList = () => {
         loadNextPartHandler();
     };
 
-    if (!movies.length) {
+    if (!movies.length && !isLoading) {
         return (
             <Flex justify="center" align="center">
                 <Heading>Нет данных по данному запросу</Heading>
